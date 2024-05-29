@@ -1,0 +1,39 @@
+form label{
+    display: inline-block;
+    width: 232px;
+}
+
+form div{
+    margin: 30px;
+    
+}
+
+form{
+    background-image: url(./images/bus.avif);
+    background-repeat: repeat;
+    display: inline-block;
+    padding: 20px;
+}
+#st{
+    text-align: center;
+    background-color: yellow;
+    color: blue;
+}
+
+.buttondiv{
+    text-align: center;
+}
+#gen{
+    width: 170px;
+}
+#bustype{
+    width: 170px;
+}
+#droptime{
+    width: 170px;
+}
+#vt{
+    width: 177px;
+}
+
+

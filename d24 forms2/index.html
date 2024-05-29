@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+    <h1 id="st">Sri Travels</h1>
+<form>
+     <div> 
+        <label for="Npinput">Name of passengers</label>
+        <input id="Npinput"/>
+        
+    
+        <label for="plinput">Pickup Location</label>
+        <input id="plinput"/>
+
+        <label for="dlinput">Drop Location</label>
+        <input id="dlinput"/>
+    </div>
+    <div> 
+        <label for="pdinput">Pickup Date</label>
+        <input id="pdinput"
+               type="datetime-local"
+               min="2015-01-01T00:00"
+               max="2025-12-31T23:59"
+               step="2"/>
+    
+        <label for="Pninput">Phone-no</label>
+         <input id="Pninput" type="number"/>
+             
+        <label for="EIDinput">Email-id</label>
+        <input id="EIDinput"/>
+     </div>
+     <div> 
+        <label>Pickup Time</label>
+        <select>
+        <option>10:25 kamala nagar(ATP)</option>
+        <option>10:35 Thapovanam circle</option>
+        <option>10:45 Garladinne bypass</option>
+        <option>11:15 Pamidi bypass</option>
+        <option>11:45 Gooty</option>
+        <option>01:15 kurnool</option>
+        </select>
+        
+        <label>Drop Time</label>
+        <select id="droptime">
+        <option>04:30 Shamshabad</option>
+        <option>05:00 Gachibowli</option>
+        <option>05:05 Gachibowli  orr</option>
+        <option>05:10 kondapur</option>
+        <option>05:15 Miyapur</option>
+        <option>05:20 Nizampet</option>
+        <option>05:30 KPHB</option>
+        <option>05:40 Kukatpally </option>
+        <option>06:00 S.R Nagar </option>
+        <option>06:10 Ameerpet </option>
+        <option>06:20 Kachiguda </option>
+        </select>
+
+        <label>Vehicle Type</label>
+        <select id="vt">
+        <option>AC</option>
+        <option>NON-AC</option>
+        </select>
+    </div>
+
+    <div>
+        <label for="Nopinput">No 0f passengers</label>
+        <input id="Nopinput"/>
+
+        <label>Bus Type</label>
+        <select id="bustype">
+        <option>Sleeper class </option>
+        <option>Semi-sleeper class</option>
+        </select>
+
+        <label>Gender</label>
+        <select id="gen">
+        <option>Male </option>
+        <option>Female</option>
+        </select>
+    </div>
+
+<div> 
+       <label>Services</label>
+       <input list="services"/>
+       <datalist id="services">
+       <option value="ATP to HYD"></option>
+       <option value="Bza to HYD"></option>
+       <option value="Hyd to Goa"></option>
+       <option value="Hyd to Shridi"></option>
+       <option value="Bng to Mumbai"></option>
+       <option value="Pune to Mumbai"></option>
+       <option value="Bng to Chennai"></option>
+       <option value="Bng to Tirupati"></option>
+       <option value="Hyd to Guntur"></option>
+    </datalist> 
+</div>
+
+    <div class="buttondiv">
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        <button type="button">Button</button>
+    </div>
+
+</form>
+</body>
+</html>
